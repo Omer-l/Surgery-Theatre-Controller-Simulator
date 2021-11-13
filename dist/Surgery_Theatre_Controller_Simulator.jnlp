@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Surgery_Theatre_Controller_Simulator.jnlp">
+  <information>
+    <title>Surgery_Theatre_Controller_Simulator</title>
+    <vendor>Carl</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Surgery_Theatre_Controller_Simulator.jar" size="27491" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Surgery_Theatre_Controller_Simulator" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="ApplicationRunner.ApplicationRunnner"  name="Surgery_Theatre_Controller_Simulator" />
+  <update check="always"/>
+</jnlp>
